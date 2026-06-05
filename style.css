@@ -112,6 +112,7 @@ main {
     border: none;
     border-radius: 40px;
     color: #fff;
+    cursor: pointer;
 }
 
 .shop-now span {
@@ -224,9 +225,9 @@ main {
     border: #000 1px solid;
     border-radius: 20px;
     scroll-snap-align: start;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .card img {
@@ -241,7 +242,7 @@ main {
 }
 
 .main-card-text {
-    margin: 5px;
+    margin: 8px;
 }
 
 .main-card-text h3 {
@@ -256,7 +257,7 @@ main {
     height: 40px;
     width: 40px;
     font-family: Consolas;
-    margin: 5px;
+    margin: 8px;
     padding-bottom: 5px;
     background-color: var(--green);
     border: none;
@@ -266,7 +267,38 @@ main {
     cursor: pointer;
 }
 
+.main-card-info button:hover .tooltip {
+    opacity: 1;
+}
+
 .main-card-info button a {
     color: #fff;
     text-decoration: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.main-card-info button .tooltip {
+    width: 80px;
+    height: 40px;
+    /* border: 1px solid #000; */
+    background-color: #01164b;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    right: 3px;
+    z-index: 999999;
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+}
+
+.main-card-info button .tooltip span {
+    font-weight: 600;
+    color: #fff;
 }
