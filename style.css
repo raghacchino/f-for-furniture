@@ -30,6 +30,7 @@ nav ul {
 
 nav ul li {
     margin: 12px;
+    position: relative;
 }
 
 nav img {
@@ -41,6 +42,21 @@ nav .navigators {
     font-size: 16px;
 }
 
+nav .navigators li::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    background-color: var(--blue);
+    transition: 0.2s all linear;
+}
+
+nav .navigators li:hover::after {
+    width: 100%;
+}
+
 nav .navigators li a {
     text-decoration: none;
 }
@@ -50,7 +66,11 @@ nav .personal-info {
     margin: 30px;
 }
 
-/***************************** MAIN ******************************/
+nav .personal-info li {
+    cursor: pointer;
+}
+
+/***************************** MAIN *****************************/
 
 main {
     width: 100vw;
@@ -173,7 +193,7 @@ main {
     color: #777;
 }
 
-.carousel {
+.home-carousel {
     width: 55%;
     display: flex;
     gap: 28px;
@@ -184,12 +204,12 @@ main {
     scroll-snap-type: x mandatory;
 }
 
-.carousel::-webkit-scrollbar {
+.home-carousel::-webkit-scrollbar {
     display: none;
 }
 
-.carousel::scroll-button(right),
-.carousel::scroll-button(left) {
+.home-carousel::scroll-button(right),
+.home-carousel::scroll-button(left) {
     content: '→';
     border: none;
     font-family: Consolas;
@@ -208,19 +228,19 @@ main {
     top: -40px;
 }
 
-.carousel::scroll-button(left) {
+.home-carousel::scroll-button(left) {
     content: '←';
     background-color: var(--green);
     right: -80px;
 }
 
-.carousel::scroll-button(right):disabled,
-.carousel::scroll-button(left):disabled {
+.home-carousel::scroll-button(right):disabled,
+.home-carousel::scroll-button(left):disabled {
     opacity: 0.8;
     cursor: auto;
 }
 
-.card {
+.home-card {
     height: 300px;
     min-width: 360px;
     background-color: #fff;
@@ -232,7 +252,7 @@ main {
     position: relative;
 }
 
-.card img {
+.home-card img {
     height: 230px;
     margin: 8px;
     border-radius: 15px;
@@ -285,7 +305,7 @@ main {
     width: 80px;
     height: 40px;
     /* border: 1px solid #000; */
-    background-color: #01164b;
+    background-color: var(--blue);
     font-size: 14px;
     color: #fff;
     display: flex;
@@ -305,9 +325,9 @@ main {
     color: #fff;
 }
 
-/***************************** SECTION ******************************/
+/***************************** SECTION *****************************/
 
-section {
+#shop {
     margin: 60px;
 }
 
@@ -449,3 +469,5 @@ section {
     color: #555;
     font-size: 16px;
 }
+
+/***************************** ABOUT US *****************************/

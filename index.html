@@ -9,28 +9,29 @@
     <link rel="shortcut icon" href="./assets/icon.ico">
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/duotone/style.css" />
 </head>
 
 <body>
     <nav>
         <img src="./assets/logo.png" class="logo">
         <ul class="navigators">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#aboutUs">About Us</a></li>
+            <li><a href="#contactUs">Contact Us</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
         </ul>
         <ul class="personal-info">
-            <li><i class="ph ph-magnifying-glass"></i></li>
-            <li><i class="ph ph-heart"></i></li>
-            <li><i class="ph ph-shopping-cart"></i></li>
-            <li><i class="ph ph-user"></i></li>
+            <li><i class="ph ph-magnifying-glass" id="glass"></i></li>
+            <li><i class="ph ph-heart" id="heart"></i></li>
+            <li><i class="ph ph-shopping-cart" id="cart"></i></li>
+            <li><i class="ph ph-user" id="profile"></i></li>
         </ul>
     </nav>
 
-    <main>
+    <main id="home">
         <div class="main-info-container">
             <div class="container-best">
                 <img src="./assets/best-chair-container.jpg">
@@ -59,8 +60,8 @@
             </div>
         </div>
 
-        <div class="carousel">
-            <div class="card">
+        <div class="home-carousel">
+            <div class="home-card">
                 <img src="./assets/living room.jpg">
                 <div class="main-card-info">
                     <div class="main-card-text">
@@ -73,7 +74,7 @@
                     </button>
                 </div>
             </div>
-            <div class="card">
+            <div class="home-card">
                 <img src="./assets/kitchen.jpg">
                 <div class="main-card-info">
                     <div class="main-card-text">
@@ -86,7 +87,7 @@
                     </button>
                 </div>
             </div>
-            <div class="card">
+            <div class="home-card">
                 <img src="./assets/bed room.jpg">
                 <div class="main-card-info">
                     <div class="main-card-text">
@@ -99,7 +100,7 @@
                     </button>
                 </div>
             </div>
-            <div class="card">
+            <div class="home-card">
                 <img src="./assets/dining room.jpg">
                 <div class="main-card-info">
                     <div class="main-card-text">
@@ -115,7 +116,7 @@
         </div>
     </main>
 
-    <section>
+    <section id="shop">
         <div class="features">
             <div class="feature-card">
                 <div class="feature-icon">
@@ -152,7 +153,8 @@
                 <div class="card-content">
                     <div class="info">
                         <h2>Chairs</h2>
-                        <p>A durable, ergonomic chair designed for long hours, featuring adjustable height, a breathable mesh back.</p>
+                        <p>A durable, ergonomic chair designed for long hours, featuring adjustable height, a breathable
+                            mesh back.</p>
                         <ul>
                             <li>Gaming Chair</li>
                             <li>Lounge Chair</li>
@@ -202,6 +204,14 @@
             </div>
         </div>
     </section>
+
+    <section id="aboutUs"></section>
+
+    <section id="contactUs"></section>
+
+    <section id="blog"></section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
