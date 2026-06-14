@@ -3,6 +3,11 @@
     --blue: #01164b;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 76px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,11 +21,15 @@ body {
 }
 
 nav {
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
     height: 76px;
+    width: 100%;
+    z-index: 999999;
 }
 
 nav ul {
@@ -75,7 +84,6 @@ nav .personal-info li {
 main {
     width: 100vw;
     background-color: #f5f5f5;
-    /* #0f0f0f */
     padding: 70px 0 70px 50px;
     display: flex;
     justify-content: space-between;
@@ -325,10 +333,10 @@ main {
     color: #fff;
 }
 
-/***************************** SECTION *****************************/
+/***************************** SHOP *****************************/
 
 #shop {
-    margin: 60px;
+    padding: 60px;
 }
 
 .features {
@@ -471,3 +479,106 @@ main {
 }
 
 /***************************** ABOUT US *****************************/
+
+#aboutUs {
+    background-color: #f5f5f5;
+}
+
+.about-us-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 80px 80px 0;
+    gap: 30px;
+}
+
+.about-us-top img {
+    width: 940px;
+    border-radius: 20px;
+}
+
+.about-us-top-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.about-us-top-text h4 {
+    /* text-transform: uppercase; */
+    color: var(--green);
+    font-size: 18px;
+}
+
+.about-us-top-text h3 {
+    font-size: 46px;
+}
+
+.about-us-top-text p {
+    font-size: 17px;
+}
+
+.about-us-top-text a,
+.about-us-top-text a button {
+    width: fit-content;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 10px;
+    border: none;
+    background-color: var(--green);
+    border-radius: 40px;
+}
+
+.about-us-bottom {
+    /* height: max-content; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px 100px 30px;
+}
+
+.bottom-sides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.bottom-sides span  {
+    font-size: 72px;
+    font-weight: 600;
+    color: var(--green);
+}
+
+.bottom-sides p {
+    font-size: 14px;
+    width: 70%;
+}
+
+.bottom-divider {
+    height: 100px;
+    width: 1px;
+    background-color: #555;
+}
+
+.bottom-center {
+    text-align: center;
+}
+
+.bottom-center span {
+    background: url(./assets/about-us-text-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-clip: text;
+    font-size: 200px;
+    font-weight: 600;
+    color: #014b1bbd;
+}
+
+.bottom-center p {
+    text-transform: uppercase;
+    font-weight: 700;
+}
