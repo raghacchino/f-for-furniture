@@ -482,6 +482,7 @@ main {
 
 #aboutUs {
     background-color: #f5f5f5;
+    width: 100vw;
 }
 
 .about-us-top {
@@ -582,3 +583,201 @@ main {
     text-transform: uppercase;
     font-weight: 700;
 }
+
+/***************************** CONTACT US *****************************/
+
+#contactUs {
+    padding: 30px 80px;
+}
+
+/* #contactUs h2 {
+    text-align: center;
+    color: var(--blue);
+    font-size: 42px;
+    margin-bottom: 40px;
+    font-weight: 700;
+} */
+
+.contact-wrapper {
+    display: flex;
+    border-radius: 30px;
+    padding: 50px 0;
+    width: 1000px;
+    /* height: 600px; */
+    background-color: #f5f5f5;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 800px;
+    /* flex: 1; */
+    align-items: stretch;
+    /* background: #f5f5f5; */
+    border-radius: 30px;
+    padding: 35px;
+}
+
+.contact-form h3 {
+    color: var(--blue);
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contact-form p {
+    color: #1b1b1b;
+    font-size: 20px;
+    margin-bottom: 30px;
+    /* max-width: 550px; */
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 8px;
+    color: #1b1b1b;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid #d9d9d9;
+    border-radius: 25px;
+    padding: 14px 16px;
+    outline: none;
+    font-size: 14px;
+    background: #fff;
+}
+
+textarea {
+    min-height: 120px;
+    resize: none;
+    border-radius: 18px;
+}
+
+.phone-group {
+    display: flex;
+    gap: 10px;
+}
+
+.phone-group select {
+    width: 90px;
+}
+
+.phone-group input {
+    flex: 1;
+}
+
+.submit-btn {
+    margin-top: 15px;
+    background-color: var(--blue);
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    float: right;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.contact-info {
+    width: 350px;
+    background-color: var(--blue);
+    padding: 35px 25px;
+    border-radius: 30px;
+    z-index: 999;
+    height: fit-content;
+    position: relative;
+    right: -50px;
+}
+
+.contact-info h3 {
+    font-size: 26px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: rgba(255,255,255,0.12);
+    padding: 18px;
+    border-radius: 14px;
+    margin-bottom: 15px;
+}
+
+.info-card i {
+    font-size: 28px;
+    color: #fff;
+}
+
+.info-card span {
+    color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.info-card p {
+    font-size: 14px;
+    color: #fff;
+}
+
+.contact-info hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 25px 0;
+}
+
+.social h4 {
+    margin-bottom: 18px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.social-icons a i {
+    color: #fff;
+}
+
+.social-icons a:hover {
+    background: white;
+}
+
+.social-icons a:hover i {
+    color: var(--blue);
+}
+
+/****************************** FOOTER ******************************/
