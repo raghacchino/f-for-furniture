@@ -1,5 +1,6 @@
 # F For Furniture
-A shopping website if you want to buy furniture. I found this while I was searching for the [Arlecchino Tribute Page](https://raghacchino.github.io/arlecchino-tribute-website/) on Pinterest. I liked it so I thought I could make it. 
+A shopping website if you want to buy furniture. I found this while I was searching for the [Arlecchino Tribute Page](https://raghacchino.github.io/arlecchino-tribute-website/) on Pinterest. I liked it so I thought I could recreate it. 
+Since I wanted to make the same thing as in the pin, I kept everything the same. The text in the picture was the lorem ipsum text, so I took help from my sister to write some of the descriptions.
 
 ## Features
 - a css carousel on the hero section
@@ -7,16 +8,18 @@ A shopping website if you want to buy furniture. I found this while I was search
 - an about us page with text that has an img as background
 - a contact us page
 - a footer
+
+
 css carousel
-![css carousel](./readme-img1.png)
+![css carousel](./screenshots/readme-img5.png)
 grid without grid
-![grid without grid](./readme-img2.png)
+![grid without grid](./screenshots/readme-img5.png)
 text with bg img
-![text with bg img](./readme-img3.png)
+![text with bg img](./screenshots/readme-img5.png)
 contact section
-![contact section](./readme-img4.png)
+![contact section](./screenshots/readme-img5.png)
 footer
-![footer](./readme-img5.png)
+![footer](./screenshots/readme-img5.png)
 
 ## Credits
 - Design inspiration linked here [pin](https://in.pinterest.com/pin/1122311169750452572/)
