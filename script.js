@@ -13,10 +13,13 @@ glass.addEventListener('mouseleave', () => {
 
 const heart = document.getElementById("heart")
 heart.addEventListener('mouseenter', () => {
+    // magGlass.classList.remove("ph ph-magnifying-glass")
     heart.classList.add("ph-duotone")
     heart.style.color = "#E52521"
+
 })
 heart.addEventListener('mouseleave', () => {
+    // magGlass.classList.add("ph ph-magnifying-glass")
     heart.classList.remove("ph-duotone")
     heart.style.color = ""
 })

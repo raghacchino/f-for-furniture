@@ -792,6 +792,7 @@ footer {
     width: 100%;
     display: grid;
     /* justify-content: space-between;
+    align-items: center;
     gap: 20px; */
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -822,12 +823,14 @@ footer {
 .footer-container .sec p {
     color: #d9d9d9;
     margin-top: 20px;
+    /* margin-bottom: -30px; */
 }
 
 .footer-container .sci {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(5, 50px);
+    /* align-items: ; */
 }
 
 .footer-container .sci li {
@@ -871,6 +874,7 @@ footer {
     display: grid;
     align-items: center;
     justify-content: center;
+    /* gap: 20px; */
     text-decoration: none;
 }
 
