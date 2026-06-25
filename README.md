@@ -11,13 +11,13 @@ Since I wanted to make the same thing as in the pin, I kept everything the same.
 
 
 css carousel
-![css carousel](./screenshots/readme-img5.png)
+![css carousel](./screenshots/readme-img1.png)
 grid without grid
-![grid without grid](./screenshots/readme-img5.png)
+![grid without grid](./screenshots/readme-img2.png)
 text with bg img
-![text with bg img](./screenshots/readme-img5.png)
+![text with bg img](./screenshots/readme-img3.png)
 contact section
-![contact section](./screenshots/readme-img5.png)
+![contact section](./screenshots/readme-img4.png)
 footer
 ![footer](./screenshots/readme-img5.png)
 
