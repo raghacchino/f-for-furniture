@@ -8,9 +8,9 @@ A shopping website if you want to buy furniture. I found this while I was search
 - a contact us page
 - a footer
 
-![css carousel]{./readme-img1.png}
-![grid without grid]{./readme-img2.png}
-![text with bg img]{./readme-img3.png}
+![css carousel](./readme-img1.png)
+![grid without grid](./readme-img2.png)
+![text with bg img](./readme-img3.png)
 
 ## Credits
 Design inspiration linked here [pin](https://in.pinterest.com/pin/1122311169750452572/)
