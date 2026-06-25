@@ -7,11 +7,17 @@ A shopping website if you want to buy furniture. I found this while I was search
 - an about us page with text that has an img as background
 - a contact us page
 - a footer
-
+css carousel
 ![css carousel](./readme-img1.png)
+grid without grid
 ![grid without grid](./readme-img2.png)
+text with bg img
 ![text with bg img](./readme-img3.png)
+contact section
+![contact section](./readme-img4.png)
+footer
+![footer](./readme-img5.png)
 
 ## Credits
-Design inspiration linked here [pin](https://in.pinterest.com/pin/1122311169750452572/)
-The video from which I took help to make the [carousel](https://www.youtube.com/watch?v=gmI5nvzv170&t)
+- Design inspiration linked here [pin](https://in.pinterest.com/pin/1122311169750452572/)
+- The video from which I took help to make the [carousel](https://www.youtube.com/watch?v=gmI5nvzv170&t)
