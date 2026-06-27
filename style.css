@@ -1,7 +1,5 @@
-:root {
-    --green: #014b1b;
-    --blue: #01164b;
-}
+/* green #014b1b
+blue #01164b */
 
 html {
     scroll-behavior: smooth;
@@ -61,7 +59,7 @@ nav .navigators li::after {
     left: 0;
     height: 4px;
     width: 0%;
-    background-color: var(--blue);
+    background-color: #01164b;
     transition: 0.2s all linear;
 }
 
@@ -126,12 +124,11 @@ main {
 }
 
 .main-info-container h1 span {
-    color: var(--green);
+    color: #014b1b;
 }
 
 .main-info-container p {
     color: #777;
-    /* #999 */
 }
 
 .shop-now {
@@ -141,7 +138,7 @@ main {
     margin: 30px 15px;
     /* height: 40px; */
     padding: 12px 20px;
-    background-color: var(--green);
+    background-color: #014b1b;
     border: none;
     border-radius: 40px;
     color: #fff;
@@ -183,7 +180,7 @@ main {
 
 .plus {
     margin-left: -12px;
-    background: var(--blue);
+    background: #01164b;
     color: #fff;
     display: flex;
     align-items: center;
@@ -224,7 +221,7 @@ main {
     content: '→';
     border: none;
     font-family: Consolas;
-    background-color: var(--blue);
+    background-color: #01164b;
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -241,7 +238,7 @@ main {
 
 .home-carousel::scroll-button(left) {
     content: '←';
-    background-color: var(--green);
+    background-color: #014b1b;
     right: -80px;
 }
 
@@ -292,7 +289,7 @@ main {
     font-family: Consolas;
     margin: 8px;
     padding-bottom: 5px;
-    background-color: var(--green);
+    background-color: #014b1b;
     border: none;
     border-radius: 50%;
     font-size: 25px;
@@ -316,7 +313,7 @@ main {
     width: 80px;
     height: 40px;
     /* border: 1px solid #000; */
-    background-color: var(--blue);
+    background-color: #01164b;
     font-size: 14px;
     color: #fff;
     display: flex;
@@ -384,7 +381,7 @@ main {
 }
 
 .chair-card {
-    flex: 1.3;
+    width: 100%;
     height: 500px;
     overflow: hidden;
 }
@@ -393,8 +390,8 @@ main {
     margin-right: -24px;
 }
 
-.right-column {
-    flex: 1;
+.categories-right {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -412,7 +409,7 @@ main {
     height: 20px;
     padding: 2px 8px;
     margin-bottom: 15px;
-    color: var(--blue);
+    color: #01164b;
     font-weight: 600;
     font-size: 14px;
     background-color: #fff;
@@ -510,7 +507,7 @@ main {
 
 .about-us-top-text h4 {
     /* text-transform: uppercase; */
-    color: var(--green);
+    color: #014b1b;
     font-size: 18px;
 }
 
@@ -530,7 +527,7 @@ main {
     color: #fff;
     padding: 8px 10px;
     border: none;
-    background-color: var(--green);
+    background-color: #014b1b;
     border-radius: 40px;
 }
 
@@ -554,7 +551,7 @@ main {
 .bottom-sides span  {
     font-size: 72px;
     font-weight: 600;
-    color: var(--green);
+    color: #014b1b;
 }
 
 .bottom-sides p {
@@ -595,10 +592,7 @@ main {
 
 /* #contactUs h2 {
     text-align: center;
-    color: var(--blue);
-    font-size: 42px;
-    margin-bottom: 40px;
-    font-weight: 700;
+    color: #01164b;
 } */
 
 .contact-wrapper {
@@ -622,7 +616,7 @@ main {
 }
 
 .contact-form h3 {
-    color: var(--blue);
+    color: #01164b;
     margin-bottom: 10px;
     font-size: 16px;
 }
@@ -680,7 +674,7 @@ main {
 
 .submit-btn {
     margin-top: 15px;
-    background-color: var(--blue);
+    background-color: #01164b;
     color: #fff;
     border: none;
     padding: 15px 20px;
@@ -693,7 +687,7 @@ main {
 
 .contact-info {
     width: 350px;
-    background-color: var(--blue);
+    background-color: #01164b;
     padding: 35px 25px;
     border-radius: 30px;
     z-index: 999;
@@ -775,7 +769,7 @@ main {
 }
 
 .social-icons a:hover i {
-    color: var(--blue);
+    color: #01164b;
 }
 
 /****************************** FOOTER ******************************/
@@ -785,7 +779,7 @@ footer {
     width: 100%;
     height: auto;
     padding: 50px 100px;
-    background-color: var(--green);
+    background-color: #014b1b;
 }
 
 .footer-container {
@@ -830,7 +824,7 @@ footer {
     margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(5, 50px);
-    /* align-items: ; */
+    /* align-items: center; */
 }
 
 .footer-container .sci li {
@@ -911,7 +905,7 @@ footer {
 
 .copyright-text {
     width: 100%;
-    background-color: var(--blue);
+    background-color: #01164b;
     padding: 20px 100px;
     text-align: center;
 }
